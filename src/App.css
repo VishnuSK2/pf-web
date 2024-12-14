@@ -1,0 +1,19 @@
+.custom-label::placeholder {
+  color: #6cc3d5;
+  opacity: 60%;
+}
+.custom-label {
+  width: 100%;
+  border: 1px solid #6cc3d5;
+}
+
+@media (min-width: 319px) and (max-width: 376px) {
+  .custom-label::placeholder {
+    font-size: 14px;
+  }
+}
+@media (min-width: 377px) and (max-width: 426px) {
+  .custom-label::placeholder {
+    font-size: 16px;
+  }
+}
